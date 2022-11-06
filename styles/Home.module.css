@@ -65,6 +65,14 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
+.terminal {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: monospace;
+}
+
 .grid {
   display: flex;
   align-items: center;
@@ -101,6 +109,14 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+}
+
+.links svg {
+    margin: 0 0.5rem;
+}
+
+.links img {
+    margin: -12px 0.5rem;
 }
 
 .logo {
