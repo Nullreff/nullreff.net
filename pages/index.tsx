@@ -16,6 +16,9 @@ import {
 
 import background from '../public/images/home_background.jpg'
 import vrchat from '../public/images/vrchat.png'
+import localFont from 'next/font/local'
+
+const DSEG7ClassicFont = localFont({src: 'fonts/DSEG7Classic-BoldItalic-nullreff-edit.woff2' })
 
 export default function Home() {
   return (
@@ -38,6 +41,16 @@ export default function Home() {
           />
     </div>
       <main className={styles.main}>
+        <div className={DSEG7ClassicFont.className}>
+          NULLREFF
+        </div>
+        <div>
+          <div>
+            I'm only as real as you make me<br/>
+            They/Them・32・Wuff・NB/Ace<br/>
+            Fursuiting・Exploring・A/V Crew・VR
+          </div>
+        </div>
         <div className={styles.socialLinks}>
             <a href="mailto:contact@nullreff.net">
                 <FontAwesomeIcon icon={faEnvelope} className="fa-4x"/>
