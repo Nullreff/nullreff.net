@@ -42,7 +42,7 @@ export default function Home() {
     </div>
       <main className={styles.main}>
         <div className={DSEG7ClassicFont.className}>
-          NULLREFF
+          nullreff
         </div>
         <div>
           <div>
