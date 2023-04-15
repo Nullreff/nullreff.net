@@ -46,7 +46,7 @@ export default function Home() {
         </div>
         <div>
           <div>
-            I'm only as real as you make me<br/>
+            I&apos;m only as real as you make me<br/>
             They/Them・32・Wuff・NB/Ace<br/>
             Fursuiting・Exploring・A/V Crew・VR
           </div>
