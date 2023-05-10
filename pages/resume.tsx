@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Layout from '../components/layout';
-import Link from 'next/link';
+import Section from '../components/resume/section';
+import Job from '../components/resume/job';
 import styles from '../styles/Resume.module.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faGit,
     faGithub,
@@ -11,81 +11,43 @@ import {
 import {
     faEnvelope,
 } from '@fortawesome/free-solid-svg-icons'
-
-const data = {
-    name: "Ryan Mendivil",
-    links: [
-        {
-            title: "Email",
-            icon: faEnvelope,
-            href: "mailto:resume@nullreff.net"
-        },
-        {
-            title: "Github",
-            icon: faGithub,
-            href: "https://github.com/nullreff/"
-        },
-        {
-            title: "Linkedin",
-            icon: faLinkedin,
-            href: "https://www.linkedin.com/in/ryan-mendivil-ab4292275/"
-        }
-    ]
-}
+import IconLink from '../components/resume/icon-link';
+import School from '../components/resume/school';
 
 export default function Resume() {
   return (
-    <div className={styles.resume}>
+    <div className="container mx-auto">
         <Layout>
             <Head>
-                <title>{data.name} - Resume</title>
+                <title>Ryan Mendivil - Resume</title>
             </Head>
 
-            <div className={styles.intro}>
-                <h1>{data.name}</h1>
+            <div className="text-center">
+                <h1>Ryan Mendivil</h1>
                 <p>
-                    {data.links.map((link, i) => {
-                        return (
-                            <span>
-                                {i !== 0 && "・"}
-                                <Link href={link.href}>
-                                    <FontAwesomeIcon icon={link.icon} className=""/>
-                                    {link.title}
-                                </Link>
-                            </span>
-                        )
-                    })}
+                    <IconLink title="Email" icon={faEnvelope} link="mailto:resume@nullreff.net" />・
+                    <IconLink title="Github" icon={faGithub} link="https://github.com/nullreff/" />・
+                    <IconLink title="Linkedin" icon={faEnvelope} link="https://www.linkedin.com/in/ryan-mendivil-ab4292275/" />
                 </p>
             </div>
 
-            <div className={styles.summary}>
-                <h2>Summary of Qualifications</h2> 
+            <Section title="Summary of Qualifications">
                 <p>
                     Professional experience in programming, systems development and administration.
                     Comprehensive knowledge of both low level and high level technologies and frameworks.
                     Well-versed in developing custom software systems.
-                    Outstanding analytical and problem solving skills. 
+                    Outstanding analytical and problem solving skills.
                 </p>
-
                 <p>
-                    Languages: C#, Java, C, JavaScript, Ruby, Haskell, Lua, PHP, ASP.NET, SQL
-                    <br/>
-                    Code: Sinatra, ASP.NET MVC, Rails, Spring, OpenResty, jQuery, React
-                    <br/>
-                    Software: Vim, Git, Bash, IntelliJ, Unix tools, PostgreSQL, SQL Server, Visual Studio, PowerShell
-                    <br/>
-                    Operating Systems: Debian 6/7/8, Ubuntu Desktop/LTS, CentOS/RHEL 6, Windows Desktop/Server
+                    C#, Java, C, JavaScript, Ruby, Haskell, Lua, PHP, ASP.NET, SQL
+                    Sinatra, ASP.NET MVC, Rails, Spring, OpenResty, jQuery, React
+                    Vim, Git, Bash, IntelliJ, Unix tools, PostgreSQL, SQL Server, Visual Studio, PowerShell
+                    Debian 6/7/8, Ubuntu Desktop/LTS, CentOS/RHEL 6, Windows Desktop/Server
                 </p>
-            </div>
+            </Section>
 
-            <div className={styles.experience}>
-                <h2>Work Experience</h2> 
-
-                <div>
-                    <div className={styles.dates}>Jan 2017 - Present</div>
-                    <div className={styles.jobTitle}>Software Engineer</div>
-                    <div className={styles.organization}>Unity Technologies, Seattle, WA</div>
-
+            <Section title="Work Experience">
+                <Job dates="Jan 2017 - Present" title="Software Engineer" company="Unity Technologies" location="Seattle, WA">
                     Designed & implemented Unity Cloud Build artifact management system using Go, Ruby and Node designed to be cloud agnostic.
                     Stood up metrics and alerting systems in Datadog using Terraform and drove adoption in other teams.
                     Team release manager & mentor, onboarded and trained junior devs.
@@ -104,22 +66,14 @@ export default function Resume() {
                     <br/>
                     Created custom Unity specific YAML parser in C for saving/loading scenes and prefabs,
                     yielding a 5x read and 76x write performance increase over previous systems
-                </div>
+                </Job>
 
-                <div>
-                    <div className={styles.dates}>June 2016 - Dec 2016</div>
-                    <div className={styles.jobTitle}>Software Engineer Intern</div>
-                    <div className={styles.organization}>Unity Technologies - Seattle, WA</div>
-
+                <Job dates="June 2016 - Dec 2016" title="Software Engineer Intern" company="Unity Technologies" location="Seattle, WA">
                     Worked on features and bug fixes for editor source control integration.
                     Created patches for Git LFS supporting additional hashing functions and custom pointer files.
-                </div>
+                </Job>
 
-                <div>
-                    <div className={styles.dates}>Aug 2011 - Jun 2014</div>
-                    <div className={styles.title}>Analyst Programmer IV</div>
-                    <div className={styles.organization}>State of Alaska - Juneau, AK</div>
-
+                <Job dates="Aug 2011 - Jun 2014" title="Analyst Programmer IV" company="State of Alaska" location="Juneau, AK">
                     Devops Team lead at State of Alaska HSS, including setting up & administering Gitlab in-house version control servers (and submitting bug PRs to them);
                     spearheaded org-wide adoption and migration to Git;
                     ran automated test & deploy CI/CD pipelines with Jenkins;
@@ -136,28 +90,19 @@ export default function Resume() {
                     Administered hodgepodge of development projects & environments using C#, ColdFusion, Python, Ruby and NodeJS on Windows/Linux
                     <br/>
                     On-call tech for state legislature
-                </div>
+                </Job>
 
-                <div>
-                    <div className={styles.dates}>Jan 2008 - Aug 2009</div>
-                    <div className={styles.jobTitle}>Student Intern II</div>
-                    <div className={styles.organization}>State of Alaska - Juneau, AK</div>
-
+                <Job dates="Jan 2008 - Aug 2009" title="Student Intern II" company="State of Alaska" location="Juneau, AK">
                     Full stack design & development of grant/contract management webapp (frontend & backend) for Alaska State Government using ASP.NET & MSSQL.
                     Designed & built custom bug tracking tools in C#
-                </div>
-            </div>
+                </Job>
+            </Section>
 
-            <div className={styles.education}>
-                <h2>Education</h2>
-
-                <div>
-                    <div className={styles.dates}>2009 - 2011, 2014 - 2016</div>
-                    <div className={styles.organization}>University of Washington - Seattle, WA</div>
-
+            <Section title="Education">
+                <School dates="2009 - 2011, 2014 - 2016" title="University of Washington" location="Seattle, WA">
                     Mathematics Major, 3.25 cumulative GPA. Earned Deans List in Fall 2014, Winter 2015 and Winter 2016.
-                </div>
-            </div>
+                </School>
+            </Section>
         </Layout>
     </div>
   )
