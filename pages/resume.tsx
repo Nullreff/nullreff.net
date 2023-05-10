@@ -4,6 +4,7 @@ import Link from 'next/link';
 import styles from '../styles/Resume.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+    faGit,
     faGithub,
     faLinkedin,
 } from '@fortawesome/free-brands-svg-icons'
@@ -11,35 +12,50 @@ import {
     faEnvelope,
 } from '@fortawesome/free-solid-svg-icons'
 
+const data = {
+    name: "Ryan Mendivil",
+    links: [
+        {
+            title: "Email",
+            icon: faEnvelope,
+            href: "mailto:resume@nullreff.net"
+        },
+        {
+            title: "Github",
+            icon: faGithub,
+            href: "https://github.com/nullreff/"
+        },
+        {
+            title: "Linkedin",
+            icon: faLinkedin,
+            href: "https://www.linkedin.com/in/ryan-mendivil-ab4292275/"
+        }
+    ]
+}
 
 export default function Resume() {
   return (
     <div className={styles.resume}>
         <Layout>
             <Head>
-                <title>Ryan Mendivil - Resume</title>
+                <title>{data.name} - Resume</title>
             </Head>
 
             <div className={styles.intro}>
-                <h1>Ryan Mendivil</h1>
+                <h1>{data.name}</h1>
                 <p>
-                    <Link href="mailto:resume@nullreff.net">
-                        <FontAwesomeIcon icon={faEnvelope} className=""/>
-                        Email
-                    </Link>
-                    ・
-                    <Link href="https://github.com/nullreff/">
-                        <FontAwesomeIcon icon={faGithub} className=""/>
-                        Github
-                    </Link>
-                    ・
-                    <Link href="https://www.linkedin.com/in/ryan-mendivil-ab4292275/">
-                        <FontAwesomeIcon icon={faLinkedin} className=""/>
-                        Linkedin
-                    </Link>
+                    {data.links.map((link, i) => {
+                        return (
+                            <span>
+                                {i !== 0 && "・"}
+                                <Link href={link.href}>
+                                    <FontAwesomeIcon icon={link.icon} className=""/>
+                                    {link.title}
+                                </Link>
+                            </span>
+                        )
+                    })}
                 </p>
-
-
             </div>
 
             <div className={styles.summary}>
