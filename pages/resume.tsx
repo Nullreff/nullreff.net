@@ -24,8 +24,8 @@ export default function Resume() {
                 <h1>Ryan Mendivil</h1>
                 <p>
                     <Link href="mailto:resume@nullreff.net">
-                        <FontAwesomeIcon icon={faEnvelope} className="fa-4x"/>
-                        resume@nullreff.net
+                        <FontAwesomeIcon icon={faEnvelope} className=""/>
+                        Email
                     </Link>
                     ・
                     <Link href="https://github.com/nullreff/">
