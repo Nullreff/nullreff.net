@@ -9,6 +9,7 @@ import {
     faYoutube,
     faDiscord,
     faTwitch,
+    faMastodon,
 } from '@fortawesome/free-brands-svg-icons'
 import {
     faEnvelope,
@@ -51,103 +52,36 @@ export default function Home() {
             Fursuiting・Exploring・A/V Crew・VR
           </div>
         </div>
-        <div className={styles.socialLinks}>
+        <div className="text-center">
             <a href="mailto:contact@nullreff.net">
-                <FontAwesomeIcon icon={faEnvelope} className="fa-4x"/>
+                <FontAwesomeIcon icon={faEnvelope} className="fa-4x inline"/>
             </a>
             <a href="https://t.me/nullreff">
-                <FontAwesomeIcon icon={faTelegram} className="fa-4x"/>
+                <FontAwesomeIcon icon={faTelegram} className="fa-4x inline"/>
             </a>
             <a href="https://discord.com/users/305191635833323520">
-                <FontAwesomeIcon icon={faDiscord} className="fa-4x"/>
+                <FontAwesomeIcon icon={faDiscord} className="fa-4x inline"/>
             </a>
             <a href="https://twitter.com/nullreff" >
-                <FontAwesomeIcon icon={faTwitter} className="fa-4x"/>
+                <FontAwesomeIcon icon={faTwitter} className="fa-4x inline"/>
+            </a>
+            <a href="https://meow.social/@nullreff" >
+                <FontAwesomeIcon icon={faMastodon} className="fa-4x inline"/>
             </a>
             <a href="https://www.youtube.com/channel/UCPxom8k6sGNrGIopdGIe-xw">
-                <FontAwesomeIcon icon={faYoutube} className="fa-4x"/>
+                <FontAwesomeIcon icon={faYoutube} className="fa-4x inline"/>
             </a>
             <a href="https://www.twitch.tv/nullreff">
-                <FontAwesomeIcon icon={faTwitch} className="fa-4x"/>
+                <FontAwesomeIcon icon={faTwitch} className="fa-4x inline"/>
             </a>
             <a href="https://github.com/nullreff/">
-                <FontAwesomeIcon icon={faGithub} className="fa-4x"/>
+                <FontAwesomeIcon icon={faGithub} className="fa-4x inline"/>
             </a>
             <a href="https://vrchat.com/home/user/usr_cde58dad-0729-4c1d-a374-66b557a4ecb3">
-                <Image src={vrchat} alt="VRChat Icon" width="80" height="80" />
+                <Image src={vrchat} alt="VRChat Icon" width="80" height="80" className="inline" />
             </a>
         </div>
-        {/*
-          <pre className={styles.code}>
-{`[guest@nullreff.net]$ head info.txt
-
-This creature responds to Nullreff, Null, Alex or They/Them
-Often seen following abandoned railroads in the Pacific Northwest
-Be careful giving attention, they're only as real as you make them
-
-[guest@nullreff.net]$ █`}
-        </pre>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-
- _   _       _ _           __  __                  _
-| \\ | |_   _| | |_ __ ___ / _|/ _|      _ __   ___| |_
-|  \\| | | | | | | '__/ _ \\ |_| |_      | '_ \\ / _ \\ __|
-| |\\  | |_| | | | | |  __/  _|  _|  _  | | | |  __/ |_
-|_| \\_|\\__,_|_|_|_|  \\___|_| |_|   (_) |_| |_|\\___|\\__|
-          */}
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
   )
 }
