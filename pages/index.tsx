@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import SocialLink from '../components/home/social-link';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faTwitter,
@@ -12,6 +13,7 @@ import {
     faMastodon,
 } from '@fortawesome/free-brands-svg-icons'
 import {
+  faCamera,
     faEnvelope,
 } from '@fortawesome/free-solid-svg-icons'
 
@@ -43,45 +45,28 @@ export default function Home() {
     </div>
       <main className={styles.main}>
         <div className={DSEG7ClassicFont.className}>
-          nullreff
-        </div>
-        <div>
-          <div>
-            I&apos;m only as real as you make me<br/>
-            They/Them・32・Wuff・NB/Ace<br/>
-            Fursuiting・Exploring・A/V Crew・VR
-          </div>
+          <span className="text-8xl">nullreff</span>
         </div>
         <div className="text-center">
-            <a href="mailto:contact@nullreff.net">
-                <FontAwesomeIcon icon={faEnvelope} className="fa-4x inline"/>
-            </a>
-            <a href="https://t.me/nullreff">
-                <FontAwesomeIcon icon={faTelegram} className="fa-4x inline"/>
-            </a>
-            <a href="https://discord.com/users/305191635833323520">
-                <FontAwesomeIcon icon={faDiscord} className="fa-4x inline"/>
-            </a>
-            <a href="https://twitter.com/nullreff" >
-                <FontAwesomeIcon icon={faTwitter} className="fa-4x inline"/>
-            </a>
-            <a href="https://meow.social/@nullreff" >
-                <FontAwesomeIcon icon={faMastodon} className="fa-4x inline"/>
-            </a>
-            <a href="https://www.youtube.com/channel/UCPxom8k6sGNrGIopdGIe-xw">
-                <FontAwesomeIcon icon={faYoutube} className="fa-4x inline"/>
-            </a>
-            <a href="https://www.twitch.tv/nullreff">
-                <FontAwesomeIcon icon={faTwitch} className="fa-4x inline"/>
-            </a>
-            <a href="https://github.com/nullreff/">
-                <FontAwesomeIcon icon={faGithub} className="fa-4x inline"/>
-            </a>
-            <a href="https://vrchat.com/home/user/usr_cde58dad-0729-4c1d-a374-66b557a4ecb3">
-                <Image src={vrchat} alt="VRChat Icon" width="80" height="80" className="inline" />
-            </a>
+            <SocialLink icon={faEnvelope} link="mailto:contact@nullreff.net"></SocialLink>
+            <SocialLink icon={faTelegram} link="https://t.me/nullreff"></SocialLink>
+            <SocialLink icon={faDiscord} link="https://discord.com/users/305191635833323520"></SocialLink>
+            <SocialLink icon={faTwitter} link="https://twitter.com/nullreff" ></SocialLink>
+            <SocialLink icon={faMastodon} link="https://meow.social/@nullreff" ></SocialLink>
+            <SocialLink icon={faYoutube} link="https://www.youtube.com/channel/UCPxom8k6sGNrGIopdGIe-xw"></SocialLink>
+            <SocialLink icon={faTwitch} link="https://www.twitch.tv/nullreff"></SocialLink>
+            <SocialLink icon={faGithub} link="https://github.com/nullreff/"></SocialLink>
+            <SocialLink image={vrchat} name="VRChat" link="https://vrchat.com/home/user/usr_cde58dad-0729-4c1d-a374-66b557a4ecb3"></SocialLink>
         </div>
       </main>
+      <footer className="absolute bottom-0 left-0 my-5 px-3 py-1 bg-slate-50/75 rounded-r-full">
+        <div className="text-blue drop-shadow">
+          <a href="https://twitter.com/tailrecur/">
+            <FontAwesomeIcon icon={faCamera} className="inline"/>
+            &nbsp;by @tailrecur
+          </a>
+        </div>
+      </footer>
     </div>
   )
 }
