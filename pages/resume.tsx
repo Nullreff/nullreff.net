@@ -12,7 +12,6 @@ import {
     faEnvelope,
 } from '@fortawesome/free-solid-svg-icons'
 import IconLink from '../components/resume/icon-link';
-import School from '../components/resume/school';
 import unityLogo from '../public/images/unity_logo.jpg'
 import soaLogo from '../public/images/soa_logo.jpg'
 import uwLogo from '../public/images/uw_logo.jpg'
@@ -67,7 +66,7 @@ export default function Resume() {
                               Led development & improvements of merge tooling including redesigning Unity scene/prefab merging.
                               Tool optimization yielding 5-50x performance increases for processing large scene files.
                               Fixed bugs and added features for client teams including Blizzard.
-                              Built realtime change diffing system hooking into Unity's serialization system and binary scene files.
+                              Built realtime change diffing system hooking into Unity&apos;s serialization system and binary scene files.
                               Primary languages: C#, C++ and C
                           </li>
                           <li>
