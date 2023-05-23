@@ -18,6 +18,7 @@ import uwLogo from '../public/images/uw_logo.jpg'
 import fwaLogo from '../public/images/fwa_2023_logo.jpg'
 import furalityLogo from '../public/images/furality_logo.png'
 import anwLogo from '../public/images/anw_logo.png'
+import alexIcon from '../public/images/alex_icon.jpg'
 import Container from '../components/resume/container';
 
 export default function Resume() {
@@ -29,8 +30,8 @@ export default function Resume() {
             </Head>
 
             <div className="text-center">
-                <h1>Ryan Mendivil</h1>
-                <p>
+                <h1 className="text-6xl">Ryan Mendivil</h1>
+                <p className="text-2xl mt-2">
                     <IconLink title="Email" icon={faEnvelope} link="mailto:resume@nullreff.net" />・
                     <IconLink title="Github" icon={faGithub} link="https://github.com/nullreff/" />・
                     <IconLink title="Linkedin" icon={faEnvelope} link="https://www.linkedin.com/in/ryan-mendivil-ab4292275/" />
@@ -40,17 +41,17 @@ export default function Resume() {
             <Section title="Summary">
                 <Container>
                     <p>
-                        Professional experience in programming, systems development and administration.
+                        Professional experience in programming, devops and administration.
                         Comprehensive knowledge of both low level and high level technologies and frameworks.
                         Well-versed in developing custom software systems.
                         Outstanding analytical and problem solving skills.
+                        Cross platform development experience with Windows, Mac and Linux.
                     </p>
-                    <p>
-                        C#, Java, C, JavaScript, Ruby, Haskell, Lua, PHP, ASP.NET, SQL
+                    <ul className="list-disc">
+                        C#, C++ Java, C, JavaScript, Ruby, Haskell, Lua, PHP, ASP.NET, SQL
                         Sinatra, ASP.NET MVC, Rails, Spring, OpenResty, jQuery, React
                         Vim, Git, Bash, IntelliJ, Unix tools, PostgreSQL, SQL Server, Visual Studio, PowerShell
-                        Debian 6/7/8, Ubuntu Desktop/LTS, CentOS/RHEL 6, Windows Desktop/Server
-                    </p>
+                    </ul>
                 </Container>
             </Section>
 
@@ -84,32 +85,49 @@ export default function Resume() {
                 </Job>
 
                 <Job dates="June 2016 - Dec 2016" title="Software Engineer Intern" company="Unity Technologies" location="Seattle, WA" logo={unityLogo}>
-                    Worked on features and bug fixes for editor source control integration.
-                    Created patches for Git LFS supporting additional hashing functions and custom pointer files.
+                    <ul className="list-disc">
+                        <li>
+                              Worked on features and bug fixes for editor source control integration.
+                              Created patches for Git LFS supporting additional hashing functions and custom pointer files.
+                        </li>
+                    </ul>
                 </Job>
 
                 <Job dates="Aug 2011 - Jun 2014" title="Analyst Programmer IV" company="State of Alaska" location="Juneau, AK" logo={soaLogo}>
-                    Devops Team lead at State of Alaska HSS, including setting up & administering Gitlab in-house version control servers (and submitting bug PRs to them);
-                    spearheaded org-wide adoption and migration to Git;
-                    ran automated test & deploy CI/CD pipelines with Jenkins;
-                    set up configuration data stores;
-                    PII & HIPAA data encryption/security/regulatory compliance;
-                    documenting SOPs
-                    <br/>
-                    Development Team lead for development of state health resources directory webapp using ASP.NET & MSSQL including live migration from legacy app with zero downtime
-                    <br/>
-                    Developed & administered State HSS dept sharepoint infrastructure serving 4k government employees & contractors
-                    <br/>
-                    Developed C# application for central dept finance database, replacing legacy AccessDB and reducing financial report processing time from days to seconds
-                    <br/>
-                    Administered hodgepodge of development projects & environments using C#, ColdFusion, Python, Ruby and NodeJS on Windows/Linux
-                    <br/>
-                    On-call tech for state legislature
+                    <ul className="list-disc">
+                        <li>
+                              Devops Team lead at State of Alaska HSS, including setting up & administering Gitlab in-house version control servers (and submitting bug PRs to them);
+                              spearheaded org-wide adoption and migration to Git;
+                              ran automated test & deploy CI/CD pipelines with Jenkins;
+                              set up configuration data stores;
+                              PII & HIPAA data encryption/security/regulatory compliance;
+                              documenting SOPs
+                        </li>
+                        <li>
+                            Development Team lead for development of state health resources directory webapp using ASP.NET & MSSQL including live migration from legacy app with zero downtime
+                        </li>
+                        <li>
+                            Developed & administered State HSS dept sharepoint infrastructure serving 4k government employees & contractors
+                        </li>
+                        <li>
+                              Developed C# application for central dept finance database, replacing legacy AccessDB and reducing financial report processing time from days to seconds
+                        </li>
+                        <li>
+                              Administered hodgepodge of development projects & environments using C#, ColdFusion, Python, Ruby and NodeJS on Windows/Linux
+                        </li>
+                        <li>
+                              On-call tech for state legislature
+                        </li>
+                    </ul>
                 </Job>
 
                 <Job dates="Jan 2008 - Aug 2009" title="Student Intern II" company="State of Alaska" location="Juneau, AK" logo={soaLogo}>
-                    Full stack design & development of grant/contract management webapp (frontend & backend) for Alaska State Government using ASP.NET & MSSQL.
-                    Designed & built custom bug tracking tools in C#
+                      <ul className="list-disc">
+                          <li>
+                              Full stack design & development of grant/contract management webapp (frontend & backend) for Alaska State Government using ASP.NET & MSSQL.
+                              Designed & built custom bug tracking tools in C#
+                          </li>
+                      </ul>
                 </Job>
             </Section>
 
@@ -118,25 +136,65 @@ export default function Resume() {
                     Earned Deans List in Fall 2014, Winter 2015 and Winter 2016, left early to pursue full time work.
                 </Job>
             </Section>
-            {/*
-            <Section title="Projects">
+            <Section title="Recent Projects">
                 <Job dates="" title="VR Visuals" company="Furry Weekend Atlanta" location="Atlanta, GA" logo={fwaLogo}>
-                    FWA VJ
+                    I was brought on staff to provide visuals for the main stage dances at FWA. 
+                    As a part of that I designed and implement a rig to allow a full body dancer in VRChat to be part of the visuals.
+                    It was received very well and we're working to bring it to more events.
+                    <br/>
+                    <br/>
+
+                    <ul>
+                        <li><a href="https://twitter.com/vintagecoyote/status/1657562573527556105">Video 1: https://twitter.com/vintagecoyote/status/1657562573527556105</a></li>
+                        <li><a href="https://twitter.com/MrAnimater/status/1657634152198356992">Video 2: https://twitter.com/MrAnimater/status/1657634152198356992</a></li>
+                        <li><a href="https://twitter.com/nullreff/status/1657967899162599425">How it works: https://twitter.com/nullreff/status/1657967899162599425</a></li>
+                    </ul>
                 </Job>
-                <Job dates="" title="Portable VR Rig" company="Personal Project" location="Seattle, WA" logo={anwLogo}>
-                    Portable VR rig
+                <Job dates="" title="Portable VR Rig" company="Personal Project" location="Seattle, WA" logo={alexIcon}>
+                    I developed a carry on sized VR rig that comes with a Valve Index, full body tracking, face tracking, charging and a built in PC.
+                    It's been tried and tested on trips and events for both work and play.
+                    Most recently I used it for the VRChat dancer on the video wall at FWA.
+                    <br/>
+                    <br/>
+                    More information at <a href="https://old.nullreff.net/projects/portable-index/">https://old.nullreff.net/projects/portable-index/</a>
                 </Job>
                 <Job dates="" title="Furality Gateway" company="Furry Weekend Atlanta" location="Atlanta, GA" logo={furalityLogo}>
-                    FWA Furality Gateway
+                    I was part of the team that helped assemble and run the Furality Gateway at FWA. 
+                    My role was mostly helping with the audio/visual side of things and helping troubleshoot technical issues.
+                    Outside of FWA, I work on the Club AV team for Furality.
                 </Job>
                 <Job dates="" title="VR Portal" company="Anthro Northwest" location="Seattle, WA" logo={anwLogo}>
-                    ANW Portal
+                    Myself along with Sora Gryphon lead the team that brought a VRChat portal to Anthro Northwest in Seattle.
+                    It featured a custom world themed around the convention, was well received by attendees.
+                    We're currently working to expand it for future events.
+                    <br/>
+                    <br/>
+
+                    <ul>
+                        <li><a href="https://twitter.com/nullreff/status/1611510319284908032">The Portal: https://twitter.com/nullreff/status/1611510319284908032</a></li>
+                        <li><a href="https://twitter.com/nullreff/status/1611993645393248256">Team Selfie: https://twitter.com/nullreff/status/1611993645393248256</a></li>
+                    </ul>
                 </Job>
-                <Job dates="" title="VR Stargazing" company="Personal Project" location="Eastern WA" logo={anwLogo}>
-                    VR Stargazing
+                <Job dates="" title="VR Stargazing" company="Personal Project" location="Eastern WA" logo={alexIcon}>
+                    After hearing from VRChat friends that they'd never been star gazing before,
+                    I designed and built a cellular streaming rig that allowed for them to experience it with us.
+                    We found a location with low light polution and set up a camera to stream a view of the sky into the VR world.
+                    I also set up my Valve Index with full body tracking so I could join them in VR.
+                    Working on plans to do it again with an even better setup.
+                    <br/>
+                    <br/>
+
+                    <ul>
+                        <li><a href="https://twitter.com/nullreff/status/1566677289404080128">Setup Thread: https://twitter.com/nullreff/status/1567905614415675394</a></li>
+                        <li><a href="https://twitter.com/nullreff/status/1567905614415675394">Stargazing: https://twitter.com/nullreff/status/1611993645393248256</a></li>
+                    </ul>
                 </Job>
             </Section>
-            */}
+            <div className="text-center m-5">
+                <a href="https://nullreff.net/resume">
+                    Most recent version at https://nullreff.net/resume
+                </a>
+            </div>
         </Layout>
     </div>
   )

@@ -11,7 +11,7 @@ type Props = {
 export default function IconLink({ title, icon, link}: Props) {
   return (
     <Link href={link}>
-        <FontAwesomeIcon icon={icon} className="" />
+        <FontAwesomeIcon icon={icon} className="mr-1" />
         {title}
     </Link>
   )
