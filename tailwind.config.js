@@ -9,7 +9,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+       backgroundImage: {
+         'lake-tahoe': "url('/img/hero-pattern.svg')",
+         'footer-texture': "url('/img/footer-texture.png')",
+        }
+    },
   },
   plugins: [],
 }

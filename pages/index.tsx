@@ -32,7 +32,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <div className={styles.bgWrap}>
+    <div>
         <Image
             alt="Lake"
             src={background}
@@ -40,18 +40,18 @@ export default function Home() {
             quality={100}
             fill
             sizes="100vw"
-            style={{objectFit: 'cover'}}
+            style={{objectFit: 'cover', zIndex: -1}}
           />
     </div>
-      <main className={styles.main}>
-        <div className={DSEG7ClassicFont.className}>
-          <span className="text-8xl">nullreff</span>
+      <main className="container mx-auto text-center">
+        <div className="text-6xl sm:text-8xl text-white pt-10">
+          <span className={DSEG7ClassicFont.className}>nullreff</span>
         </div>
-        <div className="text-center">
-            <SocialLink icon={faEnvelope} link="mailto:contact@nullreff.net"></SocialLink>
-            <SocialLink icon={faTelegram} link="https://t.me/nullreff"></SocialLink>
+        <div className="">
+            <SocialLink icon={faEnvelope} link="mailto:contact@nullreff.net" className="inline"></SocialLink>
+            <SocialLink icon={faTelegram} link="https://t.me/nullreff" className="Inline"></SocialLink>
             <SocialLink icon={faDiscord} link="https://discord.com/users/305191635833323520"></SocialLink>
-            <SocialLink icon={faTwitter} link="https://twitter.com/nullreff" ></SocialLink>
+            <SocialLink icon={faTwitter} link="https://twitter.com/nullreff"></SocialLink>
             <SocialLink icon={faMastodon} link="https://meow.social/@nullreff" ></SocialLink>
             <SocialLink icon={faYoutube} link="https://www.youtube.com/channel/UCPxom8k6sGNrGIopdGIe-xw"></SocialLink>
             <SocialLink icon={faTwitch} link="https://www.twitch.tv/nullreff"></SocialLink>
