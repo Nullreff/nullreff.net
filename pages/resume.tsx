@@ -118,6 +118,7 @@ export default function Resume() {
                     Earned Deans List in Fall 2014, Winter 2015 and Winter 2016, left early to pursue full time work.
                 </Job>
             </Section>
+            {/*
             <Section title="Projects">
                 <Job dates="" title="VR Visuals" company="Furry Weekend Atlanta" location="Atlanta, GA" logo={fwaLogo}>
                     FWA VJ
@@ -135,6 +136,7 @@ export default function Resume() {
                     VR Stargazing
                 </Job>
             </Section>
+            */}
         </Layout>
     </div>
   )
