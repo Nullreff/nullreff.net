@@ -48,14 +48,14 @@ export default function Home() {
           <span className={DSEG7ClassicFont.className}>nullreff</span>
         </div>
         <div className="">
-            <SocialLink icon={faEnvelope} link="mailto:contact@nullreff.net" className="inline"></SocialLink>
-            <SocialLink icon={faTelegram} link="https://t.me/nullreff" className="Inline"></SocialLink>
-            <SocialLink icon={faDiscord} link="https://discord.com/users/305191635833323520"></SocialLink>
-            <SocialLink icon={faTwitter} link="https://twitter.com/nullreff"></SocialLink>
-            <SocialLink icon={faMastodon} link="https://meow.social/@nullreff" ></SocialLink>
-            <SocialLink icon={faYoutube} link="https://www.youtube.com/channel/UCPxom8k6sGNrGIopdGIe-xw"></SocialLink>
-            <SocialLink icon={faTwitch} link="https://www.twitch.tv/nullreff"></SocialLink>
-            <SocialLink icon={faGithub} link="https://github.com/nullreff/"></SocialLink>
+            <SocialLink icon={faEnvelope} name="Email" link="mailto:contact@nullreff.net" className="inline"></SocialLink>
+            <SocialLink icon={faTelegram} name="Telegram" link="https://t.me/nullreff" className="Inline"></SocialLink>
+            <SocialLink icon={faDiscord} name="Discord" link="https://discord.com/users/305191635833323520"></SocialLink>
+            <SocialLink icon={faTwitter} name="Twitter" link="https://twitter.com/nullreff"></SocialLink>
+            <SocialLink icon={faMastodon} name="Mastodon" link="https://meow.social/@nullreff" ></SocialLink>
+            <SocialLink icon={faYoutube} name="Youtube" link="https://www.youtube.com/channel/UCPxom8k6sGNrGIopdGIe-xw"></SocialLink>
+            <SocialLink icon={faTwitch} name="Twitch" link="https://www.twitch.tv/nullreff"></SocialLink>
+            <SocialLink icon={faGithub} name="Github" link="https://github.com/nullreff/"></SocialLink>
             <SocialLink image={vrchat} name="VRChat" link="https://vrchat.com/home/user/usr_cde58dad-0729-4c1d-a374-66b557a4ecb3"></SocialLink>
         </div>
       </main>

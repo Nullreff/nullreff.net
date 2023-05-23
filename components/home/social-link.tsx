@@ -7,6 +7,7 @@ import { StaticImageData } from "next/image";
 type IconProps = {
   icon: IconDefinition,
   link: string,
+  name: string,
   className?: string,
 };
 
@@ -33,7 +34,7 @@ export default function SocialLink(props: Props) {
   } else {
     return (
       <Link href={props.link} className={props.className}>
-        <FontAwesomeIcon icon={props.icon} className={iconClasses} />
+        <FontAwesomeIcon icon={props.icon} title={props.name} className={iconClasses} />
       </Link>
     )
   }
