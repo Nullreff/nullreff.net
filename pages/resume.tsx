@@ -40,17 +40,19 @@ export default function Resume() {
 
             <Section title="Summary">
                 <Container>
-                    <p>
-                        Professional experience in programming, devops and administration.
-                        Comprehensive knowledge of both low level and high level technologies and frameworks.
-                        Well-versed in developing custom software systems.
-                        Outstanding analytical and problem solving skills.
-                        Cross platform development experience with Windows, Mac and Linux.
-                    </p>
-                    <ul className="list-disc">
-                        C#, C++ Java, C, JavaScript, Ruby, Haskell, Lua, PHP, ASP.NET, SQL
-                        Sinatra, ASP.NET MVC, Rails, Spring, OpenResty, jQuery, React
-                        Vim, Git, Bash, IntelliJ, Unix tools, PostgreSQL, SQL Server, Visual Studio, PowerShell
+                    <ul className="list-disc mx-5">
+                          <li>Professional experience in software development, devops, full stack and gamedev.</li>
+                        <li>Skilled in solving complicated problems and making things work despite constraints and adverse conditions.</li>
+                        <li>Knowledgeable in cross platform development with Windows, Mac and Linux.</li>
+                        <li>Experienced in leading teams, working across departments and collaborating across time zones.</li>
+                        <li>
+                            Skills:
+                              C#, C++, C, Ruby, Python, Go, Typescript, Node, Rust, Java, Haskell, Lua, ASP.NET, SQL,
+                              Unity, Terraform, Elasticsearch, Rails, Redis, React, Jenkins, Git, Github, Gitlab, PlasticSCM,
+                              AWS, GCP, Azure
+                        </li>
+                    </ul>
+                    <ul className="list-disc mx-5">
                     </ul>
                 </Container>
             </Section>
@@ -68,13 +70,12 @@ export default function Resume() {
                               Tool optimization yielding 5-50x performance increases for processing large scene files.
                               Fixed bugs and added features for client teams including Blizzard.
                               Built realtime change diffing system hooking into Unity&apos;s serialization system and binary scene files.
-                              Primary languages: C#, C++ and C
                           </li>
                           <li>
                               Worked on editor integration of source control including PlasticSCM, Git and Collab.
                               Worked on the core team of PlasticSCM, implementing features and fixing bugs.
                               Researched and tested migration of our Elasticsearch cluster.
-                              Worked with supporting Git repositories on distributed filesystems (GlusterFS).
+                              Worked with supporting Git repositories on distributed filesystems.
                               Worked on virtual file systems and file system monitoring for both Git and PlasticSCM.
                           </li>
                           <li>
@@ -138,12 +139,11 @@ export default function Resume() {
             </Section>
             <Section title="Recent Projects">
                 <Job dates="" title="VR Visuals" company="Furry Weekend Atlanta" location="Atlanta, GA" logo={fwaLogo}>
-                    I was brought on staff to provide visuals for the main stage dances at FWA. 
+                    I was brought on staff to provide visuals and run the video wall for the main stage dances at FWA (a 10k+ person event). 
                     As a part of that I designed and implement a rig to allow a full body dancer in VRChat to be part of the visuals.
-                    It was received very well and we're working to bring it to more events.
+                    It was received very well by attendees and we're working to bring it to more events.
                     <br/>
                     <br/>
-
                     <ul>
                         <li><a href="https://twitter.com/vintagecoyote/status/1657562573527556105">Video 1: https://twitter.com/vintagecoyote/status/1657562573527556105</a></li>
                         <li><a href="https://twitter.com/MrAnimater/status/1657634152198356992">Video 2: https://twitter.com/MrAnimater/status/1657634152198356992</a></li>
@@ -156,16 +156,16 @@ export default function Resume() {
                     Most recently I used it for the VRChat dancer on the video wall at FWA.
                     <br/>
                     <br/>
-                    More information at <a href="https://old.nullreff.net/projects/portable-index/">https://old.nullreff.net/projects/portable-index/</a>
+                    <a href="https://old.nullreff.net/projects/portable-index/">More information at https://old.nullreff.net/projects/portable-index/</a>
                 </Job>
                 <Job dates="" title="Furality Gateway" company="Furry Weekend Atlanta" location="Atlanta, GA" logo={furalityLogo}>
                     I was part of the team that helped assemble and run the Furality Gateway at FWA. 
-                    My role was mostly helping with the audio/visual side of things and helping troubleshoot technical issues.
+                    My role was mostly helping with the audio/visual side of things and troubleshooting technical issues.
                     Outside of FWA, I work on the Club AV team for Furality.
                 </Job>
                 <Job dates="" title="VR Portal" company="Anthro Northwest" location="Seattle, WA" logo={anwLogo}>
-                    Myself along with Sora Gryphon lead the team that brought a VRChat portal to Anthro Northwest in Seattle.
-                    It featured a custom world themed around the convention, was well received by attendees.
+                    Sora Gryphon and I lead the team that brought a VRChat portal to Anthro Northwest in Seattle.
+                    It featured a custom world themed around the convention and was popular with attendees.
                     We're currently working to expand it for future events.
                     <br/>
                     <br/>
@@ -178,7 +178,7 @@ export default function Resume() {
                 <Job dates="" title="VR Stargazing" company="Personal Project" location="Eastern WA" logo={alexIcon}>
                     After hearing from VRChat friends that they'd never been star gazing before,
                     I designed and built a cellular streaming rig that allowed for them to experience it with us.
-                    We found a location with low light polution and set up a camera to stream a view of the sky into the VR world.
+                    We found a location with low light polution and set up a camera to stream a view of the sky over VRCDN into the VR world.
                     I also set up my Valve Index with full body tracking so I could join them in VR.
                     Working on plans to do it again with an even better setup.
                     <br/>
