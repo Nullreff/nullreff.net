@@ -48,7 +48,7 @@ export default function Resume() {
                         <li>
                             Skills:
                               C#, C++, C, Ruby, Python, Go, Typescript, Node, Rust, Java, Haskell, Lua, ASP.NET, SQL,
-                              Unity, Terraform, Elasticsearch, Rails, Redis, React, NextJS, Jenkins, Git, Github, Gitlab, PlasticSCM,
+                              Unity, Terraform, Ansible, Elasticsearch, Rails, Redis, React, NextJS, Jenkins, Git, Github, Gitlab, PlasticSCM,
                               Kubernetes, Docker, AWS, GCP, Azure
                         </li>
                     </ul>
