@@ -6,7 +6,7 @@ type Props = {
 export default function Section({ title, children }: Props) {
   return (
     <div>
-        <h2>{title}</h2>
+        <h2 className="text-xl">{title}</h2>
         {children}
     </div>
   )
