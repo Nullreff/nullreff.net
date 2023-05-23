@@ -20,7 +20,7 @@ type ImageProps = {
 type Props = IconProps | ImageProps;
 
 let commonClasses = "inline m-2 drop-shadow hover:drop-shadow-2xl hover:scale-125 transition-all duration-100";
-let iconClasses = commonClasses + " fa-4x invert";
+let iconClasses = commonClasses + " fa-4x";
 let imageClasses = commonClasses + " align-bottom";
 
 export default function SocialLink(props: Props) {

@@ -43,8 +43,8 @@ export default function Home() {
             style={{objectFit: 'cover', zIndex: -1}}
           />
     </div>
-      <main className="container mx-auto text-center">
-        <div className="text-6xl sm:text-8xl text-white pt-10">
+      <main className="container mx-auto text-center text-white">
+        <div className="text-6xl sm:text-8xl pt-10">
           <span className={DSEG7ClassicFont.className}>nullreff</span>
         </div>
         <div className="">
