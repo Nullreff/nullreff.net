@@ -162,6 +162,11 @@ export default function Resume() {
                     I was part of the team that helped assemble and run the Furality Gateway at FWA. 
                     My role was mostly helping with the audio/visual side of things and troubleshooting technical issues.
                     Outside of FWA, I work on the Club AV team for Furality.
+                    <br/>
+                    <br/>
+                    <ul>
+                        <li><a href="https://twitter.com/nullreff/status/1657408498404151296">Furality Club: https://twitter.com/nullreff/status/1657408498404151296</a></li>
+                    </ul>
                 </Job>
                 <Job dates="" title="VR Portal" company="Anthro Northwest" location="Seattle, WA" logo={anwLogo}>
                     Sora Gryphon and I lead the team that brought a VRChat portal to Anthro Northwest in Seattle.
