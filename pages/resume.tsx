@@ -49,7 +49,7 @@ export default function Resume() {
                             Skills:
                               C#, C++, C, Ruby, Python, Go, Typescript, Node, Rust, Java, Haskell, Lua, ASP.NET, SQL,
                               Unity, Terraform, Elasticsearch, Rails, Redis, React, Jenkins, Git, Github, Gitlab, PlasticSCM,
-                              AWS, GCP, Azure
+                              Kubernetes, Docker, AWS, GCP, Azure
                         </li>
                     </ul>
                     <ul className="list-disc mx-5">
