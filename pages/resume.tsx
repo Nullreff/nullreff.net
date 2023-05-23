@@ -48,7 +48,7 @@ export default function Resume() {
                         <li>
                             Skills:
                               C#, C++, C, Ruby, Python, Go, Typescript, Node, Rust, Java, Haskell, Lua, ASP.NET, SQL,
-                              Unity, Terraform, Elasticsearch, Rails, Redis, React, Jenkins, Git, Github, Gitlab, PlasticSCM,
+                              Unity, Terraform, Elasticsearch, Rails, Redis, React, NextJS, Jenkins, Git, Github, Gitlab, PlasticSCM,
                               Kubernetes, Docker, AWS, GCP, Azure
                         </li>
                     </ul>
@@ -141,7 +141,7 @@ export default function Resume() {
                 <Job dates="" title="VR Visuals" company="Furry Weekend Atlanta" location="Atlanta, GA" logo={fwaLogo}>
                     I was brought on staff to provide visuals and run the video wall for the main stage dances at FWA (a 10k+ person event). 
                     As a part of that I designed and implement a rig to allow a full body dancer in VRChat to be part of the visuals.
-                    It was received very well by attendees and we're working to bring it to more events.
+                    It was received very well by attendees and we&apos;re working to bring it to more events.
                     <br/>
                     <br/>
                     <ul>
@@ -152,7 +152,7 @@ export default function Resume() {
                 </Job>
                 <Job dates="" title="Portable VR Rig" company="Personal Project" location="Seattle, WA" logo={alexIcon}>
                     I developed a carry on sized VR rig that comes with a Valve Index, full body tracking, face tracking, charging and a built in PC.
-                    It's been tried and tested on trips and events for both work and play.
+                    It&apos;s been tried and tested on trips and events for both work and play.
                     Most recently I used it for the VRChat dancer on the video wall at FWA.
                     <br/>
                     <br/>
@@ -171,7 +171,7 @@ export default function Resume() {
                 <Job dates="" title="VR Portal" company="Anthro Northwest" location="Seattle, WA" logo={anwLogo}>
                     Sora Gryphon and I lead the team that brought a VRChat portal to Anthro Northwest in Seattle.
                     It featured a custom world themed around the convention and was popular with attendees.
-                    We're currently working to expand it for future events.
+                    We&apos;re currently working to expand it for future events.
                     <br/>
                     <br/>
 
@@ -181,9 +181,9 @@ export default function Resume() {
                     </ul>
                 </Job>
                 <Job dates="" title="VR Stargazing" company="Personal Project" location="Eastern WA" logo={alexIcon}>
-                    After hearing from VRChat friends that they'd never been star gazing before,
+                    After hearing from VRChat friends that they&apos;d never been star gazing before,
                     I designed and built a cellular streaming rig that allowed for them to experience it with us.
-                    We found a location with low light polution and set up a camera to stream a view of the sky over VRCDN into the VR world.
+                    We found a location with low light pollution and set up a camera to stream a view of the sky over VRCDN into the VR world.
                     I also set up my Valve Index with full body tracking so I could join them in VR.
                     Working on plans to do it again with an even better setup.
                     <br/>
