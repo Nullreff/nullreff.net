@@ -29,7 +29,7 @@ export default function Resume() {
                 <title>Ryan Mendivil - Resume</title>
             </Head>
 
-            <div className="text-center">
+            <div className="text-center m-5">
                 <h1 className="text-6xl">Ryan Mendivil</h1>
                 <p className="text-2xl mt-2">
                     <IconLink title="Email" icon={faEnvelope} link="mailto:resume@nullreff.net" />・

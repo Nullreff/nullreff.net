@@ -25,7 +25,7 @@ const DSEG7ClassicFont = localFont({src: 'fonts/DSEG7Classic-BoldItalic-nullreff
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Nullreff</title>
         <meta name="description" content="The last time I checked, you were out dancing under the stars.  Since when is the internet a place to live your life..." />
@@ -44,8 +44,10 @@ export default function Home() {
           />
     </div>
       <main className="container mx-auto text-center text-white">
-        <div className="text-6xl sm:text-8xl pt-10">
-          <span className={DSEG7ClassicFont.className}>nullreff</span>
+        <div className="text-6xl sm:text-8xl pt-10 leading-2">
+          <div >
+            <span className={DSEG7ClassicFont.className}>null&#8203;reff</span>
+          </div>
         </div>
         <div className="">
             <SocialLink icon={faEnvelope} name="Email" link="mailto:contact@nullreff.net" className="inline"></SocialLink>
