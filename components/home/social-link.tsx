@@ -21,14 +21,14 @@ type ImageProps = {
 type Props = IconProps | ImageProps;
 
 let commonClasses = "inline m-2 drop-shadow hover:drop-shadow-2xl hover:scale-125 transition-all duration-100";
-let iconClasses = commonClasses + " fa-4x";
+let iconClasses = commonClasses + " fa-3x";
 let imageClasses = commonClasses + " align-bottom";
 
 export default function SocialLink(props: Props) {
   if ("image" in props) {
     return (
       <Link href={props.link} className={props.className}>
-        <Image src={props.image} alt={props.name} width="64" height="64" className={imageClasses} />
+        <Image src={props.image} alt={props.name} width="48" height="48" className={imageClasses} />
       </Link>
     )
   } else {
