@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Layout from '../components/layout';
-import Section from '../components/resume/section';
-import Job from '../components/resume/job';
+import Layout from '../../components/layout';
+import Section from '../../components/resume/section';
+import Job from '../../components/resume/job';
 import styles from '../styles/Resume.module.css'
 import {
     faGit,
@@ -11,22 +11,22 @@ import {
 import {
     faEnvelope,
 } from '@fortawesome/free-solid-svg-icons'
-import IconLink from '../components/resume/icon-link';
-import unityLogo from '../public/images/unity_logo.jpg'
-import soaLogo from '../public/images/soa_logo.jpg'
-import uwLogo from '../public/images/uw_logo.jpg'
-import fwaLogo from '../public/images/fwa_2023_logo.jpg'
-import furalityLogo from '../public/images/furality_logo.png'
-import anwLogo from '../public/images/anw_logo.png'
-import alexIcon from '../public/images/alex_icon.jpg'
-import Container from '../components/resume/container';
+import IconLink from '../../components/resume/icon-link';
+import unityLogo from '../../public/images/unity_logo.jpg'
+import soaLogo from '../../public/images/soa_logo.jpg'
+import uwLogo from '../../public/images/uw_logo.jpg'
+import fwaLogo from '../../public/images/fwa_2023_logo.jpg'
+import furalityLogo from '../../public/images/furality_logo.png'
+import anwLogo from '../../public/images/anw_logo.png'
+import alexIcon from '../../public/images/alex_icon.jpg'
+import Container from '../../components/resume/container';
 
 export default function Resume() {
   return (
     <div className="container mx-auto">
         <Layout>
             <Head>
-                <title>Ryan Mendivil - Resume</title>
+                <title>Nullreff Audio Visual Resume</title>
             </Head>
 
             <div className="text-center m-5">
