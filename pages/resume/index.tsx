@@ -26,7 +26,7 @@ export default function Resume() {
     <div className="container mx-auto">
         <Layout>
             <Head>
-                <title>Nullreff Audio Visual Resume</title>
+                <title>Ryan Mendivil - Resume</title>
             </Head>
 
             <div className="text-center m-5">

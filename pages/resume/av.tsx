@@ -37,15 +37,13 @@ export default function AVResume() {
     <div className="container mx-auto">
         <Layout>
             <Head>
-                <title>Ryan Mendivil - Resume</title>
+                <title>Nullreff</title>
             </Head>
 
-            <div className="text-center">
-                <h1>Ryan Mendivil</h1>
-                <p>
-                    <IconLink title="Email" icon={faEnvelope} link="mailto:resume@nullreff.net" />・
-                    <IconLink title="Github" icon={faGithub} link="https://github.com/nullreff/" />・
-                    <IconLink title="Linkedin" icon={faEnvelope} link="https://www.linkedin.com/in/ryan-mendivil-ab4292275/" />
+            <div className="text-center m-5">
+                <h1 className="text-6xl">Nullreff</h1>
+                <p className="text-2xl mt-2">
+                    <IconLink title="Email" icon={faEnvelope} link="mailto:resume@nullreff.net" />
                 </p>
             </div>
 
@@ -209,6 +207,11 @@ export default function AVResume() {
                 <Job dates="" title="AV Lead" company="Furlandia" location="Portland, OR" logo={furlandiaLogo}>
                 </Job>
             </Section>
+            <div className="text-center m-5">
+                <a href="https://nullreff.net/resume/av/">
+                    Most recent version at https://nullreff.net/resume/av/
+                </a>
+            </div>
         </Layout>
     </div>
   )
