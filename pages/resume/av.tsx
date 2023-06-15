@@ -53,7 +53,7 @@ export default function AVResume() {
                         <li>
                             Deep understanding of lighting design, equipment, programming and operation.
                             Competent working as crew for audio and video as well.
-                            Passion for making the "magic" happen for attendees.
+                            Passion for making the &quot;magic&quot; happen for attendees.
                             Received multiple staff awards for work as AV Lead at Furlandia, Vancoufur and Anthro Northwest.
                         </li>
 
@@ -62,7 +62,7 @@ export default function AVResume() {
                             Ability to balance complex constraints of events and make everythign work.
                             Calculated budgets, did the spreadsheets and made the designs pretty.
                             Spent time training volunteers of all skill levels on how to set up and run lights.
-                            Did something go wrong? I've been know to be pretty good at solving unexpected problems.
+                            Did something go wrong? I&apos;ve been know to be pretty good at solving unexpected problems.
                             I seem to get along well with most people.
                         </li>
 
@@ -72,7 +72,7 @@ export default function AVResume() {
                             Understanding of DMX, Artnet and related protocols.
                             Experience designing lighting rigs to fit various budgets and requirements.
                             Operated lighting for concerts, dances and stage productions.
-                            Competent in busking live shows and "playing along" with a DJ or musician.
+                            Competent in busking live shows and &quot;playing along&quot; with a DJ or musician.
                         </li>
 
                         <li>
