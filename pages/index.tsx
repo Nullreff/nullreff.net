@@ -14,7 +14,8 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faCamera,
-    faEnvelope,
+  faEnvelope,
+  faCloud,
 } from '@fortawesome/free-solid-svg-icons'
 
 import background from '../public/images/home_background.jpg'
@@ -55,6 +56,7 @@ export default function Home() {
             <SocialLink icon={faDiscord} name="Discord" link="https://discord.com/users/305191635833323520"></SocialLink>
             <SocialLink icon={faTwitter} name="Twitter" link="https://twitter.com/nullreff"></SocialLink>
             <SocialLink icon={faMastodon} name="Mastodon" link="https://meow.social/@nullreff" ></SocialLink>
+            <SocialLink icon={faCloud} name="Bluesky" link="https://bsky.app/profile/nullreff.net" ></SocialLink>
             <SocialLink icon={faYoutube} name="Youtube" link="https://www.youtube.com/channel/UCPxom8k6sGNrGIopdGIe-xw"></SocialLink>
             <SocialLink icon={faTwitch} name="Twitch" link="https://www.twitch.tv/nullreff"></SocialLink>
             <SocialLink icon={faGithub} name="Github" link="https://github.com/nullreff/"></SocialLink>
