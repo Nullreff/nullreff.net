@@ -190,8 +190,8 @@ export default function Resume() {
                     <br/>
 
                     <ul>
-                        <li><a href="https://twitter.com/nullreff/status/1566677289404080128">Setup Thread: https://twitter.com/nullreff/status/1567905614415675394</a></li>
-                        <li><a href="https://twitter.com/nullreff/status/1567905614415675394">Stargazing: https://twitter.com/nullreff/status/1611993645393248256</a></li>
+                        <li><a href="https://twitter.com/nullreff/status/1566677289404080128">Setup Thread: https://twitter.com/nullreff/status/1566677289404080128</a></li>
+                        <li><a href="https://twitter.com/nullreff/status/1567905614415675394">Stargazing: https://twitter.com/nullreff/status/1567905614415675394</a></li>
                     </ul>
                 </Job>
             </Section>
