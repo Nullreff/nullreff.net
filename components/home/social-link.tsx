@@ -27,13 +27,13 @@ let imageClasses = commonClasses + " align-bottom";
 export default function SocialLink(props: Props) {
   if ("image" in props) {
     return (
-      <Link href={props.link} className={props.className}>
+      <Link href={props.link} rel="me" className={props.className}>
         <Image src={props.image} alt={props.name} width="48" height="48" className={imageClasses} />
       </Link>
     )
   } else {
     return (
-      <Link href={props.link} className={props.className}>
+      <Link href={props.link} rel="me" className={props.className}>
         <FontAwesomeIcon icon={props.icon} title={props.name} className={iconClasses} />
       </Link>
     )
