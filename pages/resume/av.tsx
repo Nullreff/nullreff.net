@@ -92,10 +92,14 @@ export default function AVResume() {
             </Section>
 
             <Section title="Upcoming">
-                <Job dates="" title="Lighting Designer / VJ" company="Biggest Little Fur Con" location="Reno, NV" logo={blfcLogo}>
+                <Job dates="" title="Lighting & Visuals Lead" company="Biggest Little Fur Con" location="Reno, NV" logo={blfcLogo}>
                 </Job>
 
-                <Job dates="" title="VJ Lead" company="Anthrocon" location="Pittsburgh PA" logo={acLogo}>
+                <Job dates="" title="Visuals" company="Biggest Little Fur Con" location="Reno, NV" logo={blfcLogo}>
+                </Job>
+
+
+                <Job dates="" title="Visuals Lead" company="Anthrocon" location="Pittsburgh PA" logo={acLogo}>
                 </Job>
             </Section>
 
@@ -107,7 +111,7 @@ export default function AVResume() {
                 <Job dates="" title="Furality Gateway Staff" company="Furry Weekend Atlanta" location="Atlanta, GA" logo={furalityLogo}>
                 </Job>
 
-                <Job dates="" title="VJ Lead" company="Furry Weekend Atlanta" location="Atlanta, GA" logo={fwaLogo}>
+                <Job dates="" title="Visuals Lead" company="Furry Weekend Atlanta" location="Atlanta, GA" logo={fwaLogo}>
                 </Job>
 
                 <Job dates="April 5th 2023" title="Lighting Consultant" company="Norwescon" location="Seattle, WA" logo={norwesconLogo}>
@@ -125,7 +129,7 @@ export default function AVResume() {
                 </Job>
             </Section>
             <Section title="2022">
-                <Job dates="" title="Lighting Operator / VJ" company="Biggest Little Fur Con" location="Reno, NV" logo={blfcLogo}>
+                <Job dates="" title="Lighting & Visuals Operator" company="Biggest Little Fur Con" location="Reno, NV" logo={blfcLogo}>
                 </Job>
 
                 <Job dates="" title="AV Lead" company="Get Out the Float" location="Seaside, OR" logo={gotfLogo}>
