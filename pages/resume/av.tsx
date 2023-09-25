@@ -29,6 +29,8 @@ import denfurLogo from '../../public/images/denfur_logo.png'
 import vancoufurLogo from '../../public/images/vancoufur_logo.png'
 import furfestLogo from '../../public/images/furfest_logo.png'
 import rmfcLogo from '../../public/images/rmfc_logo.png'
+import endshowLogo from '../../public/images/endshow_elevative.png'
+import waterwolfLogo from '../../public/images/waterwolf_logo.png'
 import alexIcon from '../../public/images/alex_icon.jpg'
 import Container from '../../components/resume/container';
 
@@ -95,16 +97,18 @@ export default function AVResume() {
                 <Job dates="" title="Lighting & Visuals Lead" company="Biggest Little Fur Con" location="Reno, NV" logo={blfcLogo}>
                 </Job>
 
-                <Job dates="" title="Visuals" company="Biggest Little Fur Con" location="Reno, NV" logo={blfcLogo}>
+                <Job dates="" title="Visuals Programmer" company="Anime Nebraskon Endshow" location="Council Bluffs, IA" logo={endshowLogo}>
                 </Job>
 
-
-                <Job dates="" title="Visuals Lead" company="Anthrocon" location="Pittsburgh PA" logo={acLogo}>
+                <Job dates="" title="Lighting & Visuals" company="Foxxcon Cyberpunk" location="VRChat" logo={waterwolfLogo}>
                 </Job>
+
             </Section>
 
-
             <Section title="2023">
+                <Job dates="" title="Visuals Lead" company="Anthrocon" location="Pittsburgh, PA" logo={acLogo}>
+                </Job>
+
                 <Job dates="" title="Club AV Team" company="Furality Sylva" location="VRChat" logo={furalityLogo}>
                 </Job>
 
