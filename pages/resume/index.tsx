@@ -34,7 +34,7 @@ export default function Resume() {
                 <p className="text-2xl mt-2">
                     <IconLink title="Email" icon={faEnvelope} link="mailto:resume@nullreff.net" />・
                     <IconLink title="Github" icon={faGithub} link="https://github.com/nullreff/" />・
-                    <IconLink title="Linkedin" icon={faEnvelope} link="https://www.linkedin.com/in/ryan-mendivil-ab4292275/" />
+                    <IconLink title="Linkedin" icon={faLinkedin} link="https://www.linkedin.com/in/alex-mendivil-ab4292275/" />
                 </p>
             </div>
 
