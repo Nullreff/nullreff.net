@@ -94,18 +94,21 @@ export default function AVResume() {
             </Section>
 
             <Section title="Upcoming">
-                <Job dates="" title="Lighting & Visuals Lead" company="Biggest Little Fur Con" location="Reno, NV" logo={blfcLogo}>
-                </Job>
-
-                <Job dates="" title="Visuals Programmer" company="Anime Nebraskon Endshow" location="Council Bluffs, IA" logo={endshowLogo}>
-                </Job>
-
-                <Job dates="" title="Lighting & Visuals" company="Foxxcon Cyberpunk" location="VRChat" logo={waterwolfLogo}>
+                <Job dates="" title="Lighting & Visuals Lead" company="Anthro Northwest" location="Seattle, WA" logo={anwLogo}>
                 </Job>
 
             </Section>
 
             <Section title="2023">
+                <Job dates="" title="Lighting & Visuals Lead" company="Biggest Little Fur Con" location="Reno, NV" logo={blfcLogo}>
+                </Job>
+
+                <Job dates="" title="Visuals" company="Anime Nebraskon Endshow" location="Council Bluffs, IA" logo={endshowLogo}>
+                </Job>
+
+                <Job dates="" title="Lighting & Visuals" company="Foxxcon Cyberpunk" location="VRChat" logo={waterwolfLogo}>
+                </Job>
+
                 <Job dates="" title="Visuals Lead" company="Anthrocon" location="Pittsburgh, PA" logo={acLogo}>
                 </Job>
 
