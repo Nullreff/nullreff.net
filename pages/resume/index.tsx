@@ -26,11 +26,11 @@ export default function Resume() {
     <div className="container mx-auto">
         <Layout>
             <Head>
-                <title>Ryan Mendivil - Resume</title>
+                <title>Alex Mendivil - Resume</title>
             </Head>
 
             <div className="text-center m-5">
-                <h1 className="text-6xl">Ryan Mendivil</h1>
+                <h1 className="text-6xl">Alex Mendivil</h1>
                 <p className="text-2xl mt-2">
                     <IconLink title="Email" icon={faEnvelope} link="mailto:resume@nullreff.net" />・
                     <IconLink title="Github" icon={faGithub} link="https://github.com/nullreff/" />・
