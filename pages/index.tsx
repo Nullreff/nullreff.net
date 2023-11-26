@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import SocialLink from '../components/home/social-link';
 import VRChatLogo from '../components/home/vrchat-logo';
+import NullreffLogo from '../components/home/nullreff-logo';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faTwitter,
@@ -19,9 +20,6 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 
 import background from '../public/images/home_background.jpg'
-import localFont from 'next/font/local'
-
-const DSEG7ClassicFont = localFont({src: 'fonts/DSEG7Classic-BoldItalic-nullreff-edit.woff2' })
 
 export default function Home() {
   return (
@@ -45,9 +43,7 @@ export default function Home() {
     </div>
       <main className="container mx-auto text-center text-white">
         <div className="text-6xl sm:text-8xl pt-10 leading-2">
-          <div >
-            <span className={DSEG7ClassicFont.className}>null&#8203;reff</span>
-          </div>
+          <NullreffLogo />
         </div>
         <div className="">
             <SocialLink icon={faEnvelope} name="Email" link="mailto:contact@nullreff.net" className="inline"></SocialLink>
