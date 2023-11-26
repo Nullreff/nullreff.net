@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
-import Image from 'next/image';
-import { StaticImageData } from "next/image";
+import React from 'react'
 
 type IconProps = {
   icon: IconDefinition,
@@ -11,30 +10,29 @@ type IconProps = {
   className?: string,
 };
 
-type ImageProps = {
-  image: StaticImageData,
+type DefaultProps = React.PropsWithChildren<{
   name: string,
   link: string,
   className?: string,
-}
+}>
 
-type Props = IconProps | ImageProps;
+type Props = IconProps | DefaultProps;
 
 let commonClasses = "inline m-2 drop-shadow hover:drop-shadow-2xl hover:scale-125 transition-all duration-100";
 let iconClasses = commonClasses + " fa-3x";
-let imageClasses = commonClasses + " align-bottom";
+let defaultClasses = commonClasses + " invert align-bottom";
 
 export default function SocialLink(props: Props) {
-  if ("image" in props) {
+  if ("icon" in props) {
     return (
       <Link href={props.link} rel="me" className={props.className}>
-        <Image src={props.image} alt={props.name} width="48" height="48" className={imageClasses} />
+        <FontAwesomeIcon icon={props.icon} title={props.name} className={iconClasses} />
       </Link>
     )
   } else {
     return (
       <Link href={props.link} rel="me" className={props.className}>
-        <FontAwesomeIcon icon={props.icon} title={props.name} className={iconClasses} />
+        {props.children}
       </Link>
     )
   }
