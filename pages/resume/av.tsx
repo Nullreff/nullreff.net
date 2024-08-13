@@ -31,6 +31,8 @@ import furfestLogo from '../../public/images/furfest_logo.png'
 import rmfcLogo from '../../public/images/rmfc_logo.png'
 import endshowLogo from '../../public/images/endshow_elevative.png'
 import waterwolfLogo from '../../public/images/waterwolf_logo.png'
+import furduLogo from '../../public/images/furdu_logo.png'
+import afcLogo from '../../public/images/afc_logo.png'
 import alexIcon from '../../public/images/alex_icon.jpg'
 import Container from '../../components/resume/container';
 
@@ -49,54 +51,33 @@ export default function AVResume() {
                 </p>
             </div>
 
-            <Section title="Qualifications">
-                <Container>
-                    <ul className="list-disc mx-5">
-                        <li>
-                            Deep understanding of lighting design, equipment, programming and operation.
-                            Competent working as crew for audio and video as well.
-                            Passion for making the &quot;magic&quot; happen for attendees.
-                            Received multiple staff awards for work as AV Lead at Furlandia, Vancoufur and Anthro Northwest.
-                        </li>
-
-                        <li>
-                            Experience recruiting and orgnaizing large groups of volunteers to make an event happen.
-                            Ability to balance complex constraints of events and make everythign work.
-                            Calculated budgets, did the spreadsheets and made the designs pretty.
-                            Spent time training volunteers of all skill levels on how to set up and run lights.
-                            Did something go wrong? I&apos;ve been know to be pretty good at solving unexpected problems.
-                            I seem to get along well with most people.
-                        </li>
-
-                        <li>
-                            Extensive experience programming and operating Chamsys.
-                            Some experience operating GrandMA and Hog.
-                            Understanding of DMX, Artnet and related protocols.
-                            Experience designing lighting rigs to fit various budgets and requirements.
-                            Operated lighting for concerts, dances and stage productions.
-                            Competent in busking live shows and &quot;playing along&quot; with a DJ or musician.
-                        </li>
-
-                        <li>
-                            Experience using Yamaha CL5 and LS9 boards.
-                            Created shows in QLab for audio playback during events.
-                            Operated sound board for live music (with assistance).
-                            Provided audio playback during scripted events.
-                        </li>
-
-                        <li>
-                            Experience working with NewTek Tricaster and Blackmagic ATEM.
-                            Operated video switcher during dances.
-                            Provided video playback during various events.
-                        </li>
-                    </ul>
-                </Container>
-            </Section>
-
-            <Section title="Upcoming">
-                <Job dates="" title="Lighting & Visuals Lead" company="Anthro Northwest" location="Seattle, WA" logo={anwLogo}>
+            <Section title="Upcoming Events">
+                <Job dates="" title="Lighting & Visuals" company="Frostcon" location="VRChat" logo={waterwolfLogo}>
                 </Job>
 
+                <Job dates="" title="AV Crew" company="Biggest Little Fur Con" location="Reno, NV" logo={blfcLogo}>
+                </Job>
+
+                <Job dates="" title="Lighting Lead" company="Another Fur Con" location="Ontario, CA" logo={afcLogo}>
+                </Job>
+
+            </Section>
+
+            <Section title="2024">
+                <Job dates="" title="Visuals Lead" company="Anthrocon" location="Pittsburgh, PA" logo={acLogo}>
+                </Job>
+
+                <Job dates="" title="Club AV Team" company="Furality Umbra" location="VRChat" logo={furalityLogo}>
+                </Job>
+
+                <Job dates="" title="Visuals Lead" company="Furry Weekend Atlanta" location="Atlanta, GA" logo={fwaLogo}>
+                </Job>
+
+                <Job dates="" title="Visuals Lead" company="FurDU" location="Gold Coast, QLD" logo={furduLogo}>
+                </Job>
+
+                <Job dates="" title="Lighting Lead" company="Anthro Northwest" location="Seattle, WA" logo={anwLogo}>
+                </Job>
             </Section>
 
             <Section title="2023">
@@ -125,8 +106,6 @@ export default function AVResume() {
                 </Job>
 
                 <Job dates="Feb 25th 2023" title="Lighting Designer / Operator" company="The Revelation Band @ Metropolist" location="Seattle, WA" logo={revelationBandLogo}>
-                    https://www.facebook.com/revelationbandwa/posts/pfbid07EytnNhQr8AvUidNb67S9rMQWxhGp3NhKtqY7hS34o3v87mXhK4hn5GtaKK2WT4Fl
-                    https://www.facebook.com/revelationbandwa/posts/pfbid053rvdhpr4pr57CPnhZuozmPULWVzTrTHeQWJwCXXbG3AjrQgBw9GzDqR2GCWnFsGl
                 </Job>
 
                 <Job dates="" title="Club AV Team" company="Furality Luma Festival" location="VRChat" logo={furalityLogo}>
