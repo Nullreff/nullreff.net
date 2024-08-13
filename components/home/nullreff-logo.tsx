@@ -3,7 +3,7 @@ import localFont from 'next/font/local'
 const DSEG7ClassicFont = localFont({src: '../../styles/fonts/DSEG7Classic-BoldItalic-nullreff-edit.woff2' })
 
 export default function NullreffLogo() {
-    const maxDate = new Date(8640000000000000);
+    const maxDate = new Date(8640000000000000).getTime();
     const birthday = Date.parse('1990-10-02');
     const [hoverTime, setHoverTime] = useState(maxDate);
     const [text, setText] = useState('nullreff');
@@ -22,7 +22,7 @@ export default function NullreffLogo() {
     })
 
     return (
-        <div onMouseEnter={() => setHoverTime(Date.now())} onMouseLeave={() => setHoverTime(maxDate.getTime())}>
+        <div onMouseEnter={() => setHoverTime(Date.now())} onMouseLeave={() => setHoverTime(maxDate)}>
             <span className={DSEG7ClassicFont.className}>{text}</span>
         </div>
     )
