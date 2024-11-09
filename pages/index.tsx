@@ -61,7 +61,7 @@ export default function Home() {
             </SocialLink>
         </div>
       </main>
-      <footer className="absolute bottom-0 left-0 my-5 px-3 py-1 bg-slate-50/75 rounded-r-full">
+      <footer className="absolute bottom-0 left-0 my-5 px-3 py-1 bg-slate-50/75 dark:text-black rounded-r-full">
         <div className="text-blue drop-shadow">
           <a href="https://www.furtrack.com/index/photographer:smiles">
             <FontAwesomeIcon icon={faCamera} className="inline"/>
