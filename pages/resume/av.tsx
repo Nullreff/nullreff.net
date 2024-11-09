@@ -55,15 +55,15 @@ export default function AVResume() {
                 <Job dates="" title="Lighting & Visuals" company="Frostcon" location="VRChat" logo={waterwolfLogo}>
                 </Job>
 
+            </Section>
+
+            <Section title="2024">
                 <Job dates="" title="AV Crew" company="Biggest Little Fur Con" location="Reno, NV" logo={blfcLogo}>
                 </Job>
 
                 <Job dates="" title="Lighting Lead" company="Another Fur Con" location="Ontario, CA" logo={afcLogo}>
                 </Job>
 
-            </Section>
-
-            <Section title="2024">
                 <Job dates="" title="Visuals Lead" company="Anthrocon" location="Pittsburgh, PA" logo={acLogo}>
                 </Job>
 
