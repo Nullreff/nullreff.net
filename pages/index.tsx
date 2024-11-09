@@ -36,6 +36,7 @@ export default function Home() {
             src={background}
             placeholder="blur"
             quality={100}
+            priority={true}
             fill
             sizes="100vw"
             style={{objectFit: 'cover', zIndex: -1}}
