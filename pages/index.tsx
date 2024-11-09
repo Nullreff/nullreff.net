@@ -55,7 +55,7 @@ export default function Home() {
             <SocialLink icon={faTelegram} name="Telegram" link="https://t.me/nullreff"></SocialLink>
             <SocialLink icon={faDiscord} name="Discord" link="https://discord.com/users/305191635833323520"></SocialLink>
             <SocialLink icon={faGithub} name="Github" link="https://github.com/nullreff/"></SocialLink>
-            <SocialLink icon={faEnvelope} name="Email" link="mailto:contact@nullreff.net"></SocialLink>
+            <SocialLink icon={faEnvelope} name="Email" link="mailto:website@nullreff.net"></SocialLink>
             <SocialLink name="VRChat" link="https://vrch.at/usr_cde58dad-0729-4c1d-a374-66b557a4ecb3">
               <VRChatLogo className="svg-inline--fa inline m-2 drop-shadow hover:drop-shadow-2xl hover:scale-125 transition-all duration-100 fa-3x" />
             </SocialLink>
