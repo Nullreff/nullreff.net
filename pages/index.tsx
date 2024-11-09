@@ -46,16 +46,16 @@ export default function Home() {
         <div className="text-6xl sm:text-8xl pt-10 leading-2">
           <NullreffLogo />
         </div>
-        <div className="">
-            <SocialLink icon={faEnvelope} name="Email" link="mailto:contact@nullreff.net" className="inline"></SocialLink>
-            <SocialLink icon={faTelegram} name="Telegram" link="https://t.me/nullreff" className="Inline"></SocialLink>
-            <SocialLink icon={faDiscord} name="Discord" link="https://discord.com/users/305191635833323520"></SocialLink>
+        <div className="max-w-sm sm:max-w-2xl mx-auto grid grid-cols-5 sm:grid-cols-10">
+            <SocialLink icon={faBluesky} name="Bluesky" link="https://bsky.app/profile/nullreff.net"></SocialLink>
+            <SocialLink icon={faMastodon} name="Mastodon" link="https://meow.social/@nullreff"></SocialLink>
             <SocialLink icon={faTwitter} name="Twitter" link="https://twitter.com/nullreff"></SocialLink>
-            <SocialLink icon={faMastodon} name="Mastodon" link="https://meow.social/@nullreff" ></SocialLink>
-            <SocialLink icon={faBluesky} name="Bluesky" link="https://bsky.app/profile/nullreff.net" ></SocialLink>
             <SocialLink icon={faYoutube} name="Youtube" link="https://www.youtube.com/channel/UCPxom8k6sGNrGIopdGIe-xw"></SocialLink>
             <SocialLink icon={faTwitch} name="Twitch" link="https://www.twitch.tv/nullreff"></SocialLink>
+            <SocialLink icon={faTelegram} name="Telegram" link="https://t.me/nullreff"></SocialLink>
+            <SocialLink icon={faDiscord} name="Discord" link="https://discord.com/users/305191635833323520"></SocialLink>
             <SocialLink icon={faGithub} name="Github" link="https://github.com/nullreff/"></SocialLink>
+            <SocialLink icon={faEnvelope} name="Email" link="mailto:contact@nullreff.net"></SocialLink>
             <SocialLink name="VRChat" link="https://vrch.at/usr_cde58dad-0729-4c1d-a374-66b557a4ecb3">
               <VRChatLogo className="svg-inline--fa inline m-2 drop-shadow hover:drop-shadow-2xl hover:scale-125 transition-all duration-100 fa-3x" />
             </SocialLink>
