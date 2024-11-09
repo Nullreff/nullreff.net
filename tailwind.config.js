@@ -13,7 +13,10 @@ module.exports = {
        backgroundImage: {
          'lake-tahoe': "url('/img/hero-pattern.svg')",
          'footer-texture': "url('/img/footer-texture.png')",
-        }
+        },
+        screens: {
+          'xs': '392px',
+        },
     },
   },
   plugins: [],

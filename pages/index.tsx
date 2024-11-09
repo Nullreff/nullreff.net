@@ -43,10 +43,10 @@ export default function Home() {
           />
     </div>
       <main className="container mx-auto text-center text-white">
-        <div className="text-6xl sm:text-8xl pt-10 leading-2">
+        <div className="text-3xl xs:text-6xl sm:text-8xl pt-10 leading-2">
           <NullreffLogo />
         </div>
-        <div className="max-w-sm sm:max-w-2xl mx-auto grid grid-cols-5 sm:grid-cols-10">
+        <div className="max-w-56 grid-cols-2 xs:max-w-sm xs:grid-cols-5 sm:max-w-2xl sm:grid-cols-10 mx-auto grid">
             <SocialLink icon={faBluesky} name="Bluesky" link="https://bsky.app/profile/nullreff.net"></SocialLink>
             <SocialLink icon={faMastodon} name="Mastodon" link="https://meow.social/@nullreff"></SocialLink>
             <SocialLink icon={faTwitter} name="Twitter" link="https://twitter.com/nullreff"></SocialLink>
