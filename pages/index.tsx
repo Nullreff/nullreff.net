@@ -62,9 +62,9 @@ export default function Home() {
       </main>
       <footer className="absolute bottom-0 left-0 my-5 px-3 py-1 bg-slate-50/75 rounded-r-full">
         <div className="text-blue drop-shadow">
-          <a href="https://twitter.com/tailrecur/">
+          <a href="https://www.furtrack.com/index/photographer:smiles">
             <FontAwesomeIcon icon={faCamera} className="inline"/>
-            &nbsp;by @tailrecur
+            &nbsp;by Smiles
           </a>
         </div>
       </footer>
