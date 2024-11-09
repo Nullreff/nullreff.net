@@ -52,6 +52,15 @@ export default function AVResume() {
             </div>
 
             <Section title="Upcoming Events">
+                <Job dates="" title="Visuals Lead" company="Anthrocon" location="Pittsburgh, PA" logo={acLogo}>
+                </Job>
+
+                <Job dates="" title="Club AV Team" company="Furality 8" location="VRChat" logo={furalityLogo}>
+                </Job>
+
+                <Job dates="" title="Visuals Lead" company="Furry Weekend Atlanta" location="Atlanta, GA" logo={fwaLogo}>
+                </Job>
+
                 <Job dates="" title="Lighting & Visuals" company="Frostcon" location="VRChat" logo={waterwolfLogo}>
                 </Job>
 
