@@ -20,7 +20,6 @@ type Props = IconProps | DefaultProps;
 
 let commonClasses = "inline m-2 drop-shadow hover:drop-shadow-2xl hover:scale-125 transition-all duration-100";
 let iconClasses = commonClasses + " fa-3x";
-let defaultClasses = commonClasses + " invert align-bottom";
 
 export default function SocialLink(props: Props) {
   if ("icon" in props) {

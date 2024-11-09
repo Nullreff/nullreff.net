@@ -8,10 +8,9 @@ type Props = {
     company: string,
     location: string,
     logo: StaticImageData,
-    children: React.ReactNode
 }
 
-export default function Job({ dates, title, company, location, logo, children }: Props) {
+export default function Job({ dates, title, company, location, logo, children }: React.PropsWithChildren<Props>) {
   return (
     <Container>
         <Image src={logo} alt={company} width="50" height="50" className="float-left rounded-full mr-2"/>
