@@ -58,14 +58,13 @@ export default function AVResume() {
 
                 <Job dates="June 5th - 8th" title="Club AV Team" company="Furality 8" location="VRChat" logo={furalityLogo}>
                 </Job>
+            </Section>
 
+            <Section title="2025">
                 <Job dates="May 8th - 11th" title="Visuals Lead" company="Furry Weekend Atlanta" location="Atlanta, GA" logo={fwaLogo}>
                 </Job>
 
-                <Job dates="February 19th - 23rd" title="Visuals Team" company="Nordic Fuzz Con" location="Malmö, Sweden" logo={nfcLogo}>
-                </Job>
-
-                <Job dates="December 21st - 22nd" title="Lighting & Visuals" company="Frostcon" location="VRChat" logo={waterwolfLogo}>
+                <Job dates="February 19th - 23rd" title="Visuals Tech" company="Nordic Fuzz Con" location="Malmö, Sweden" logo={nfcLogo}>
                 </Job>
 
             </Section>
@@ -100,10 +99,10 @@ export default function AVResume() {
                 <Job dates="October 30th - November 2nd" title="Lighting & Visuals Lead" company="Biggest Little Fur Con" location="Reno, NV" logo={blfcLogo}>
                 </Job>
 
-                <Job dates="October 21st" title="Visuals" company="Anime Nebraskon Endshow" location="Council Bluffs, IA" logo={endshowLogo}>
+                <Job dates="October 21st" title="Visuals Tech" company="Anime Nebraskon Endshow" location="Council Bluffs, IA" logo={endshowLogo}>
                 </Job>
 
-                <Job dates="October 21st - 22nd" title="Lighting & Visuals" company="Foxxcon Cyberpunk" location="VRChat" logo={waterwolfLogo}>
+                <Job dates="October 21st - 22nd" title="Lighting & Visuals Tech" company="Foxxcon Cyberpunk" location="VRChat" logo={waterwolfLogo}>
                 </Job>
 
                 <Job dates="June 29th - July 2nd" title="Visuals Lead" company="Anthrocon" location="Pittsburgh, PA" logo={acLogo}>
