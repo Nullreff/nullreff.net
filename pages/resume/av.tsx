@@ -56,7 +56,7 @@ export default function AVResume() {
                 <Job dates="July 3rd - 6th" title="Visuals Lead" company="Anthrocon" location="Pittsburgh, PA" logo={acLogo}>
                 </Job>
 
-                <Job dates="June 5th - 8th" title="Club AV Team" company="Furality 8" location="VRChat" logo={furalityLogo}>
+                <Job dates="June 5th - 8th" title="Club AV Team" company="Furality Somna" location="VRChat" logo={furalityLogo}>
                 </Job>
             </Section>
 
