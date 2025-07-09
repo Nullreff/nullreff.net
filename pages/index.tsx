@@ -5,7 +5,6 @@ import VRChatLogo from '../components/home/vrchat-logo';
 import NullreffLogo from '../components/home/nullreff-logo';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faTwitter,
     faTelegram,
     faGithub,
     faYoutube,
@@ -48,7 +47,6 @@ export default function Home() {
         <div className="max-w-56 grid-cols-2 xs:max-w-sm xs:grid-cols-5 sm:max-w-2xl sm:grid-cols-10 mx-auto grid">
             <SocialLink icon={faBluesky} name="Bluesky" link="https://bsky.app/profile/nullreff.net"></SocialLink>
             <SocialLink icon={faMastodon} name="Mastodon" link="https://meow.social/@nullreff"></SocialLink>
-            <SocialLink icon={faTwitter} name="Twitter" link="https://twitter.com/nullreff"></SocialLink>
             <SocialLink icon={faYoutube} name="Youtube" link="https://www.youtube.com/channel/UCPxom8k6sGNrGIopdGIe-xw"></SocialLink>
             <SocialLink icon={faTwitch} name="Twitch" link="https://www.twitch.tv/nullreff"></SocialLink>
             <SocialLink icon={faTelegram} name="Telegram" link="https://t.me/nullreff"></SocialLink>
