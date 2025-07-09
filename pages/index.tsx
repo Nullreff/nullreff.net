@@ -19,6 +19,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 
 import background from '../public/images/home_background.jpg'
+import furtrack from '../public/images/furtrack_logo.png'
 
 export default function Home() {
   return (
@@ -53,6 +54,15 @@ export default function Home() {
             <SocialLink icon={faDiscord} name="Discord" link="https://discord.com/users/305191635833323520"></SocialLink>
             <SocialLink icon={faGithub} name="Github" link="https://github.com/nullreff/"></SocialLink>
             <SocialLink icon={faEnvelope} name="Email" link="mailto:website@nullreff.net"></SocialLink>
+            <SocialLink name="Furtrack" link="https://www.furtrack.com/user/nullreff">
+              <ExportedImage
+                className="svg-inline--fa inline m-2 drop-shadow hover:drop-shadow-2xl hover:scale-125 transition-all duration-100 fa-3x"
+                alt="Furtrack"
+                src={furtrack}
+                width="60"
+                height="60"
+              />
+            </SocialLink>
             <SocialLink name="VRChat" link="https://vrch.at/usr_cde58dad-0729-4c1d-a374-66b557a4ecb3">
               <VRChatLogo className="svg-inline--fa inline m-2 drop-shadow hover:drop-shadow-2xl hover:scale-125 transition-all duration-100 fa-3x" />
             </SocialLink>
