@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import ExportedImage from "next-image-export-optimizer";
 import SocialLink from '../components/home/social-link';
 import VRChatLogo from '../components/home/vrchat-logo';
 import NullreffLogo from '../components/home/nullreff-logo';
@@ -31,11 +31,10 @@ export default function Home() {
       </Head>
 
     <div>
-        <Image
+        <ExportedImage
             alt="Lake"
             src={background}
             placeholder="blur"
-            quality={100}
             priority={true}
             fill
             sizes="100vw"
