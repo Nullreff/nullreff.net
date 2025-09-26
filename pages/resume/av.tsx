@@ -53,14 +53,26 @@ export default function AVResume() {
             </div>
 
             <Section title="Upcoming Events">
+                <Job dates="July 2rd - 5th" title="Visuals Lead" company="Anthrocon" location="Pittsburgh, PA" logo={acLogo}>
+                </Job>
+
+                <Job dates="May 7th - 10th" title="Visuals Lead" company="Furry Weekend Atlanta" location="Atlanta, GA" logo={fwaLogo}>
+                </Job>
+
+                <Job dates="February 18th - 22rd" title="Visuals Tech" company="Nordic Fuzz Con" location="Malmö, Sweden" logo={nfcLogo}>
+                </Job>
+            </Section>
+
+            <Section title="2025">
+                <Job dates="September 18th - 21th" title="Visuals Tech" company="Another Fur Con" location="Ontario, CA" logo={afcLogo}>
+                </Job>
+
                 <Job dates="July 3rd - 6th" title="Visuals Lead" company="Anthrocon" location="Pittsburgh, PA" logo={acLogo}>
                 </Job>
 
                 <Job dates="June 5th - 8th" title="Club AV Team" company="Furality Somna" location="VRChat" logo={furalityLogo}>
                 </Job>
-            </Section>
 
-            <Section title="2025">
                 <Job dates="May 8th - 11th" title="Visuals Lead" company="Furry Weekend Atlanta" location="Atlanta, GA" logo={fwaLogo}>
                 </Job>
 
